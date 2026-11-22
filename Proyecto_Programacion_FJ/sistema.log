@@ -1,0 +1,139 @@
+2026-11-21 22:36:03,249 - INFO - Sistema Software FJ iniciado.
+2026-11-21 22:36:03,260 - INFO - Cliente registrado: Carlos Perez
+2026-11-21 22:36:03,261 - INFO - Cliente registrado: Maria Lopez
+2026-11-21 22:36:03,262 - ERROR - Registro de cliente invalido
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Documents\Proyecto_Programacion_FJ\main.py", line 35, in ejecutar_sistema
+    cliente_invalido = Cliente(
+        "1003", "Pedro Ruiz", "pedrogmail.com", "3201234567"
+    )
+  File "C:\Users\Usuario\Documents\Proyecto_Programacion_FJ\cliente.py", line 14, in __init__
+    raise ValueError("El correo electrónico no es válido.")
+ValueError: El correo electrónico no es válido.
+2026-11-21 22:36:03,432 - ERROR - Telefono invalido
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Documents\Proyecto_Programacion_FJ\main.py", line 46, in ejecutar_sistema
+    Cliente("1004", "Ana Torres", "ana@gmail.com", "123")
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Usuario\Documents\Proyecto_Programacion_FJ\cliente.py", line 17, in __init__
+    raise ValueError("El teléfono debe contener al menos 7 dígitos.")
+ValueError: El teléfono debe contener al menos 7 dígitos.
+2026-11-21 22:36:03,434 - INFO - Servicio agregado: Sala de reuniones
+2026-11-21 22:36:03,435 - INFO - Servicio agregado: Video Beam
+2026-11-21 22:36:03,435 - INFO - Servicio agregado: Asesoria de software
+2026-11-21 22:36:03,440 - ERROR - Creacion de servicio invalido
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Documents\Proyecto_Programacion_FJ\main.py", line 69, in ejecutar_sistema
+    ReservaSala("Sala incorrecta", -5000)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Usuario\Documents\Proyecto_Programacion_FJ\servicios.py", line 16, in __init__
+    raise ValueError("El precio debe ser mayor que cero.")
+ValueError: El precio debe ser mayor que cero.
+2026-11-21 22:36:03,461 - ERROR - Error al registrar cliente: El cliente ya está registrado.
+2026-11-21 22:36:03,465 - INFO - Reserva creada: R001
+2026-11-21 22:36:03,469 - INFO - Reserva confirmada: R001
+2026-11-21 22:36:03,474 - INFO - Reserva procesada: R001
+2026-11-21 22:36:03,500 - ERROR - Error al crear reserva: El cliente no está registrado.
+2026-11-21 22:36:03,505 - INFO - Reserva creada: R003
+2026-11-21 22:36:03,513 - INFO - Reserva cancelada: R003
+2026-11-21 22:36:03,517 - ERROR - Error al procesar reserva: La reserva debe estar confirmada para procesarse.
+2026-11-22 00:10:32,608 - INFO - Sistema Software FJ iniciado.
+2026-11-22 00:10:32,637 - INFO - Cliente registrado: Carlos Perez
+2026-11-22 00:10:32,638 - INFO - Cliente registrado: Maria Lopez
+2026-11-22 00:10:32,643 - ERROR - Registro de cliente invalido
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Documents\Proyecto_Programacion_FJ\main.py", line 35, in ejecutar_sistema
+    cliente_invalido = Cliente(
+        "1003", "Pedro Ruiz", "pedrogmail.com", "3201234567"
+    )
+  File "C:\Users\Usuario\Documents\Proyecto_Programacion_FJ\cliente.py", line 14, in __init__
+    raise ValueError("El correo electrónico no es válido.")
+ValueError: El correo electrónico no es válido.
+2026-11-22 00:10:32,842 - ERROR - Telefono invalido
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Documents\Proyecto_Programacion_FJ\main.py", line 46, in ejecutar_sistema
+    Cliente("1004", "Ana Torres", "ana@gmail.com", "123")
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Usuario\Documents\Proyecto_Programacion_FJ\cliente.py", line 17, in __init__
+    raise ValueError("El teléfono debe contener al menos 7 dígitos.")
+ValueError: El teléfono debe contener al menos 7 dígitos.
+2026-11-22 00:10:32,846 - INFO - Servicio agregado: Sala de reuniones
+2026-11-22 00:10:32,847 - INFO - Servicio agregado: Video Beam
+2026-11-22 00:10:32,848 - INFO - Servicio agregado: Asesoria de software
+2026-11-22 00:10:32,867 - ERROR - Creacion de servicio invalido
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Documents\Proyecto_Programacion_FJ\main.py", line 69, in ejecutar_sistema
+    ReservaSala("Sala incorrecta", -5000)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Usuario\Documents\Proyecto_Programacion_FJ\servicios.py", line 16, in __init__
+    raise ValueError("El precio debe ser mayor que cero.")
+ValueError: El precio debe ser mayor que cero.
+2026-11-22 00:10:32,877 - ERROR - Error al registrar cliente: El cliente ya está registrado.
+2026-11-22 00:10:32,888 - INFO - Reserva creada: R001
+2026-11-22 00:10:32,893 - INFO - Reserva confirmada: R001
+2026-11-22 00:10:32,902 - INFO - Reserva procesada: R001
+2026-11-22 00:10:32,933 - ERROR - Error al crear reserva: El cliente no está registrado.
+2026-11-22 00:10:32,938 - INFO - Reserva creada: R003
+2026-11-22 00:10:32,943 - INFO - Reserva cancelada: R003
+2026-11-22 00:10:32,952 - ERROR - Error al procesar reserva: La reserva debe estar confirmada para procesarse.
+2026-11-22 00:14:23,745 - INFO - Sistema Software FJ iniciado.
+2026-11-22 00:14:23,748 - INFO - Cliente registrado: Carlos Perez
+2026-11-22 00:14:23,753 - INFO - Cliente registrado: Maria Lopez
+2026-11-22 00:14:23,760 - ERROR - Registro de cliente invalido
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Documents\Proyecto_Programacion_FJ\main.py", line 35, in ejecutar_sistema
+    cliente_invalido = Cliente(
+        "1003", "Pedro Ruiz", "pedrogmail.com", "3201234567"
+    )
+  File "C:\Users\Usuario\Documents\Proyecto_Programacion_FJ\cliente.py", line 14, in __init__
+    raise ValueError("El correo electrónico no es válido.")
+ValueError: El correo electrónico no es válido.
+2026-11-22 00:14:23,777 - ERROR - Telefono invalido
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Documents\Proyecto_Programacion_FJ\main.py", line 46, in ejecutar_sistema
+    Cliente("1004", "Ana Torres", "ana@gmail.com", "123")
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Usuario\Documents\Proyecto_Programacion_FJ\cliente.py", line 17, in __init__
+    raise ValueError("El teléfono debe contener al menos 7 dígitos.")
+ValueError: El teléfono debe contener al menos 7 dígitos.
+2026-11-22 00:14:23,782 - INFO - Servicio agregado: Sala de reuniones
+2026-11-22 00:14:23,788 - INFO - Servicio agregado: Video Beam
+2026-11-22 00:14:23,792 - INFO - Servicio agregado: Asesoria de software
+2026-11-22 00:14:23,795 - ERROR - Creacion de servicio invalido
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Documents\Proyecto_Programacion_FJ\main.py", line 69, in ejecutar_sistema
+    ReservaSala("Sala incorrecta", -5000)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Usuario\Documents\Proyecto_Programacion_FJ\servicios.py", line 16, in __init__
+    raise ValueError("El precio debe ser mayor que cero.")
+ValueError: El precio debe ser mayor que cero.
+2026-11-22 00:14:23,799 - ERROR - Error al registrar cliente: El cliente ya está registrado.
+2026-11-22 00:14:23,808 - INFO - Reserva creada: R001
+2026-11-22 00:14:23,812 - INFO - Reserva confirmada: R001
+2026-11-22 00:14:23,815 - INFO - Reserva procesada: R001
+2026-11-22 00:14:23,826 - ERROR - Error al crear reserva: El cliente no está registrado.
+2026-11-22 00:14:23,829 - INFO - Reserva creada: R003
+2026-11-22 00:14:23,833 - INFO - Reserva cancelada: R003
+2026-11-22 00:14:23,841 - ERROR - Error al procesar reserva: La reserva debe estar confirmada para procesarse.
+2026-11-22 00:14:23,854 - ERROR - Prueba de impuesto invalido
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Documents\Proyecto_Programacion_FJ\main.py", line 131, in ejecutar_sistema
+    sala.calcular_costo(2, impuesto=150)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Usuario\Documents\Proyecto_Programacion_FJ\servicios.py", line 48, in calcular_costo
+    self.validar_impuestos_descuentos(impuesto, descuento)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Usuario\Documents\Proyecto_Programacion_FJ\servicios.py", line 34, in validar_impuestos_descuentos
+    raise ValueError("El impuesto debe estar entre 0 y 100.")
+ValueError: El impuesto debe estar entre 0 y 100.
+2026-11-22 00:14:23,884 - ERROR - Prueba de descuento invalido
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Documents\Proyecto_Programacion_FJ\main.py", line 139, in ejecutar_sistema
+    equipo.calcular_costo(2, descuento=-10)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Usuario\Documents\Proyecto_Programacion_FJ\servicios.py", line 65, in calcular_costo
+    self.validar_impuestos_descuentos(impuesto, descuento)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Usuario\Documents\Proyecto_Programacion_FJ\servicios.py", line 37, in validar_impuestos_descuentos
+    raise ValueError("El descuento debe estar entre 0 y 100.")
+ValueError: El descuento debe estar entre 0 y 100.
