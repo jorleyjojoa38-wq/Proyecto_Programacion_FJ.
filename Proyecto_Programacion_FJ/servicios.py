@@ -73,7 +73,6 @@ class AlquilerEquipo(Servicio):
 class AsesoriaEspecializada(Servicio):
     """Servicio de asesoría especializada por horas."""
     def validar_duracion(self, duracion):
-        self.validar_impuestos_descuentos(impuesto, descuento)
         if not isinstance(duracion, (int, float)) or duracion <= 0:
             raise ValueError("La duración de la asesoría debe ser mayor que cero.")
         if duracion > 8:
