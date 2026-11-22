@@ -78,6 +78,7 @@ class AsesoriaEspecializada(Servicio):
         if duracion > 8:
             raise ValueError("La asesoría no puede superar 8 horas por sesión.")
     def calcular_costo(self, duracion, impuesto=0, descuento=0):
+        self.validar_impuestos_descuentos(impuesto, descuento)
         self.validar_duracion(duracion)
         subtotal = self.precio_base * duracion
         return subtotal + subtotal * impuesto / 100 - subtotal * descuento / 100
